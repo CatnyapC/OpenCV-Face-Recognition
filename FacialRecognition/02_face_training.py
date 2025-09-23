@@ -29,6 +29,9 @@ def getImagesAndLabels(path):
     ids = []
 
     for imagePath in imagePaths:
+        # Filter out non-image files like .DS_Store
+        if '.DS_Store' in imagePath:
+            continue
 
         PIL_img = Image.open(imagePath).convert('L') # convert it to grayscale
         img_numpy = np.array(PIL_img,'uint8')
