@@ -29,11 +29,11 @@ font = cv2.FONT_HERSHEY_SIMPLEX
 id = 0
 
 # IDに関連する名前: 例 ==> Marcelo: id=1, など
-names = ['None', 'HASHIMOTO', 'YAKUSHIMARU', 'PUTIN'] 
+names = ['None', 'KIN TAKUU', 'YAKUSHIMARU', 'PUTIN'] 
 
 #ここから感情を設定する
 emotions = {
-	'HASHIMOTO': 'SURPRISE',
+	'KIN TAKUU': 'SURPRISE',
 	'YAKUSHIMARU': 'HAPPY',
 	'PUTIN': 'ANGRY'
 }
@@ -109,7 +109,7 @@ while True:
 			# 感情値の設定
 			# 今は顔を認識できたときだけemotion_nowを書き出している。本当はemotion_nowをLEIからコピーして上書き必要。
 			confidence_flag=1
-			if name == 'HASHIMOTO':
+			if name == 'KIN TAKUU':
 				g_surprise = 1.0
 			if name == 'YAKUSHIMARU':
 				g_happiness = 1.0

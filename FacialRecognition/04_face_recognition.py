@@ -17,7 +17,7 @@ id = 0
 
 # Names related to ids: example ==> Marcelo: id=1, etc
 #names = ['None', 'KazukiSAGARA', 'Hitora', 'YukichiFukuzawa']
-names = ['None', 'HASHIMOTO', 'YAKUSHIMARU', 'PUTIN'] 
+names = ['None', 'KIN TAKUU', 'YAKUSHIMARU', 'PUTIN'] 
 
 #ここから感情を表示する
 # Emotions related to names
